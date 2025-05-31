@@ -1,0 +1,4 @@
+[build]
+  image = "python:3.9-slim"
+  command = "docker build -t fastapi-app . && docker run -p 8080:80 fastapi-app"
+  publish = "build"
