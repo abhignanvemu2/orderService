@@ -1,0 +1,88 @@
+# ====================================
+# 🐍 Python
+# ====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Environment files
+.env
+*.env.*
+!*.env.example
+
+# Installer/packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ====================================
+# 🐘 Alembic
+# ====================================
+alembic/__pycache__/
+alembic/versions/__pycache__/
+alembic/versions/*.pyc
+
+# ====================================
+# 🧪 Testing & Coverage
+# ====================================
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ====================================
+# 🐳 Docker
+# ====================================
+*.pid
+docker-compose.override.yml
+*.log
+
+# ====================================
+# 🧠 MyPy / Typing
+# ====================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ====================================
+# 📒 SQLite or Local DBs
+# ====================================
+*.sqlite3
+*.db
+
+# ====================================
+# 🧠 IDEs / Editors
+# ====================================
+.vscode/
+.idea/
+
+# ====================================
+# 🖥 OS Files
+# ====================================
+.DS_Store
+Thumbs.db
+
+# ====================================
+# 🧪 Jupyter
+# ====================================
+.ipynb_checkpoints/
